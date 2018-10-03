@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Todo List</title>
+	</head>
+
+	<body>
+		<h1>Todo List</h1>
+
+		<div>
+			<button onclick="toggleAll()">Toggle All</button>
+		</div>
+
+		<div>
+			<button onclick="addTodo()">Add</button>	
+			<input type="text" id="addTodoInput">
+		</div>
+		
+		<div>
+			<button onclick="changeTodo()">Change Todo</button>
+			<input id="changeTodoPositionInput"type="number" name="">
+			<input id="changeTodoTextInput" type="text">
+		</div>
+				
+		<div>
+			<button onclick="toggleCompleted()">Toggle Completed</button>
+			<input id="toggleCompletedPositionInput" type="number">
+		</div>
+
+		<ul></ul>
+		
+		<script src="exercise_2.js"></script>
+	</body>
+
+</html>
